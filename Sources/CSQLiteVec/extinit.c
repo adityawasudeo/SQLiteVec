@@ -1,4 +1,7 @@
 #define SQLITE_CORE 1
+#define SQLITE_ENABLE_FTS5 1
+#define SQLITE_ENABLE_FTS3 1
+#define SQLITE_ENABLE_FTS3_PARENTHESIS 1
 
 #include "extinit.h"
 #include "sqlite3.h"
