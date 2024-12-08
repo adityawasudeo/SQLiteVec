@@ -4,7 +4,7 @@
 #ifndef SQLITE_CORE
 #include "sqlite3ext.h"
 #else
-#include "sqlite3.h"
+#include "sqlite3.hpp"
 #endif
 
 #ifdef SQLITE_VEC_STATIC

@@ -2,7 +2,7 @@
 #define EXTINIT_H
 
 #include <stdio.h>
-#include "sqlite3.h"
+#include "sqlite3.hpp"
 
 #ifdef __cplusplus
 extern "C" {
